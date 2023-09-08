@@ -15,7 +15,6 @@ import karakter7 from './Karya/3D/Karakter7.png';
 import pesawat from './Karya/3D/PESAWAT.png';
 import room from './Karya/3D/Room.png';
 import ruko3 from './Karya/3D/RUKO 3.png';
-import ruko31 from './Karya/3D/RUKO 3 1.png';
 import ruko from './Karya/3D/Ruko.png';
 import rumahseni from './Karya/3D/RUMAH SENI HOME DONE.png';
 import taxi from './Karya/3D/TAXI.png';
@@ -66,4 +65,4 @@ import gambarTigaBelas from './Karya/Gambar/tigabelas.png';
 
 
 
-export { miniworld, donatcup, table, burger, chicken, cow, dioramahelp, gedhang, gedung, home, karakter3, karakter4, karakter5, karakter7, pesawat, room, ruko3, ruko31, ruko, rumahseni, taxi, theembosser, workbench, kamar, logoBlack, logoWhite, logo, cocard1, cocard2, cocard3,brosur, ganci,lanyard1, labyard2, nota, sertifikat, sticker, totebag1, totebag2, twibon1, twibon2, twibon3, twibon4, zoomBg, logo1, logo2, logo3, logo4, mcCard1, mcCard2, media, saba, gambarSatu, gambarDua, gambarTiga, gambarEmpat, gambarLima, gambarEnam, gambarTujuh, gambarDelapan, gambarSembilan, gambarSepuluh, gambarSebelas, gambarDuaBelas, gambarTigaBelas };
+export { miniworld, donatcup, table, burger, chicken, cow, dioramahelp, gedhang, gedung, home, karakter3, karakter4, karakter5, karakter7, pesawat, room, ruko3, ruko, rumahseni, taxi, theembosser, workbench, kamar, logoBlack, logoWhite, logo, cocard1, cocard2, cocard3,brosur, ganci,lanyard1, labyard2, nota, sertifikat, sticker, totebag1, totebag2, twibon1, twibon2, twibon3, twibon4, zoomBg, logo1, logo2, logo3, logo4, mcCard1, mcCard2, media, saba, gambarSatu, gambarDua, gambarTiga, gambarEmpat, gambarLima, gambarEnam, gambarTujuh, gambarDelapan, gambarSembilan, gambarSepuluh, gambarSebelas, gambarDuaBelas, gambarTigaBelas };
