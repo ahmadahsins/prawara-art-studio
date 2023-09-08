@@ -5,9 +5,9 @@ import WorksPage from "./pages/WorksPage";
 import ContactPage from "./pages/ContactPage";
 import Navbar from "./components/Navbar";
 import CardWorks from "./components/CardWorks";
+import ToTop from "./components/ToTop"
 
 import { cardWorks2d, cardWorks3d, cardWorksGambar } from "./constants";
-import ToTop from "./components/toTop";
 import { useState } from "react";
 
 const App = () => {
