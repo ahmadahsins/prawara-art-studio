@@ -3,7 +3,7 @@ import { donatcup, miniworld, table, burger, chicken, cow, dioramahelp, gedhang,
     const textHome =
     { 
         title: "About",
-        text: "Prawara Art Studio merupakan perusahaan berbentuk Art Studio yang bergerak dalam bidang design grafis. Perusahaan kami mengunggulkan hasil karya berupa design grafis 3D dengan  Artstyle Low Poly unik dan menarik. Perkembangan jasa desain grafis yang pesat saat ini tidak lepas dari banyaknya permintaan  masyarakat akan jasa desain maupun produk desain. Prawara hadir sebagai solusi untuk memenuhi permintaan masyarakat akan jasa maupun produk desain tersebut. Kami hadir dengan memberikan jasa desain khususnya 3D dari desainer dengan skill desain yang mumpuni dan memiliki keunggulan dibanding yang lain. Daya kreativitas, intuisi, imajinasi desainer yang kami miliki menghasilkan maha karya yang luar biasa. Terbukti dari tingkat kepuasan customer terhadap jasa kami selama ini. Kami memiliki berbagai keunggulan dan keunikan dibanding dengan perusahaan-perusahaan desain lainnya.",
+        text: "Prawara Art Studio merupakan perusahaan berbentuk Art Studio yang bergerak dalam bidang design grafis. Perusahaan kami mengunggulkan hasil karya berupa design grafis 3D dengan  Artstyle Low Poly unik dan menarik. Perkembangan jasa desain grafis yang pesat saat ini tidak lepas dari banyaknya permintaan  masyarakat akan jasa desain maupun produk desain. Prawara hadir sebagai solusi untuk memenuhi permintaan masyarakat akan jasa maupun produk desain tersebut. Kami hadir dengan memberikan jasa desain khususnya 3D dari desainer dengan skill desain yang mumpuni dan memiliki keunggulan dibanding yang lain. Daya kreativitas, intuisi, imajinasi desainer yang kami miliki menghasilkan maha karya yang luar biasa. Terbukti dari tingkat kepuasan customer terhadap jasa kami selama ini. Kami memiliki berbagai keunggulan dan keunikan dibanding dengan perusahaan-perusahaan desain lainnya.",
         imageUrl: logo,
     }
     
@@ -188,7 +188,7 @@ import { donatcup, miniworld, table, burger, chicken, cow, dioramahelp, gedhang,
             imageUrl: karakter3,
         },
         {
-            title: "Karqakter 4",
+            title: "Karakter 4",
             imageUrl: karakter4,
         },
         {

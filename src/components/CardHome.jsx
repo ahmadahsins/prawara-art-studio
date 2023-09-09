@@ -41,7 +41,7 @@ const CardHome = ({ title, text, imageUrl, link }) => {
         <div className="hero-content text-center text-white">
         <motion.div className="max-w-md" variants={textVariants} initial="offscreen" whileInView="onscreen" transition={{ duration: 0.5 }}>
             <motion.h1 className="mb-5 text-5xl font-bold">{title}</motion.h1>
-            <Link to={link} className="mb-5">{text}</Link>
+            <Link to={link} className="mb-5 hover:underline">{text}</Link>
         </motion.div>
         </div>
     </motion.div>
