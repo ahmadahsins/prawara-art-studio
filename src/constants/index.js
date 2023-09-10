@@ -1,4 +1,4 @@
-import { donatcup, miniworld, table, burger, chicken, cow, dioramahelp, gedhang, gedung, home, karakter3, karakter4, karakter5, karakter7, pesawat, room, ruko3, ruko, rumahseni, taxi, theembosser, workbench, kamar, logo, cocard1, cocard2, cocard3, brosur, ganci,lanyard1, labyard2, nota, sertifikat, sticker, totebag1, totebag2, twibon1, twibon2, twibon3, twibon4, zoomBg, logo1, logo2, logo3, logo4, mcCard1, mcCard2, saba, media, logoWhite, gambarSatu, gambarDua, gambarTiga, gambarEmpat, gambarLima, gambarEnam, gambarTujuh, gambarDelapan, gambarSembilan, gambarSepuluh, gambarSebelas, gambarDuaBelas, gambarTigaBelas } from "../assets";
+import { donatcup, miniworld, table, burger, chicken, cow, dioramahelp, gedhang, gedung, home, karakter3, karakter4, karakter5, karakter7, pesawat, room, ruko3, ruko, rumahseni, taxi, theembosser, workbench, kamar, logo, cocard1, cocard2, cocard3, brosur, ganci,lanyard1, labyard2, nota, sertifikat, sticker, totebag1, totebag2, twibon1, twibon2, twibon3, twibon4, zoomBg, logo1, logo2, logo3, logo4, mcCard1, mcCard2, saba, media, logoWhite, gambarSatu, gambarDua, gambarTiga, gambarEmpat, gambarLima, gambarEnam, gambarTujuh, gambarDelapan, gambarSembilan, gambarSepuluh, gambarSebelas, gambarDuaBelas, gambarTigaBelas, gega, elton } from "../assets";
 
     const textHome =
     { 
@@ -19,16 +19,16 @@ import { donatcup, miniworld, table, burger, chicken, cow, dioramahelp, gedhang,
         {
             title: "Recent Work",
             text: "Our Works",
-            imageUrl: "src/assets/Karya/3D/Kamar.png",
+            imageUrl: kamar,
             link: "/works/all"
         },
         {
             title: "About Us",
             text: "Our Studio",
-            imageUrl: "src/assets/Karya/3D/Room.png",
+            imageUrl: room,
             link: "/studio"
         },
-    ]
+    ];
 
     const imgPartnerUrl = [
         logoWhite,
@@ -49,7 +49,7 @@ import { donatcup, miniworld, table, burger, chicken, cow, dioramahelp, gedhang,
             list: ["Logo", "Poster", "Banner", "Illustrasion", "Certificate", "Twibbon"],
             imageUrl: mcCard2,
         },
-    ]
+    ];
 
     const cardWorksAll = [
         {
@@ -64,7 +64,7 @@ import { donatcup, miniworld, table, burger, chicken, cow, dioramahelp, gedhang,
             title: "Table",
             imageUrl: table,
         },
-    ]
+    ];
 
     const cardWorks2d = [
         {
@@ -159,7 +159,7 @@ import { donatcup, miniworld, table, burger, chicken, cow, dioramahelp, gedhang,
             title: "MC Card 2",
             imageUrl: mcCard2,
         }
-    ]
+    ];
 
     
     const cardWorks3d = [
@@ -251,7 +251,7 @@ import { donatcup, miniworld, table, burger, chicken, cow, dioramahelp, gedhang,
             title: "Ruko",
             imageUrl: ruko,
         },
-    ]
+    ];
 
     const cardWorksGambar = [
         {
@@ -306,24 +306,33 @@ import { donatcup, miniworld, table, burger, chicken, cow, dioramahelp, gedhang,
             title: "Gambar Tiga Belas",
             imageUrl: gambarTigaBelas,
         }
-    ]
+    ];
 
     const images = [
         room, miniworld, rumahseni, donatcup, gedhang, gedung, home, karakter3, karakter4, karakter5, karakter7, pesawat, ruko, ruko3,
-    ]
+    ];
 
     const imageUrlCarouselHome = [
         room,
         workbench,
         kamar,
         donatcup
-    ]
+    ];
 
     const imageUrlCarouselStudio = [
         rumahseni,
         gedhang,
         burger,
         cow
-    ]
+    ];
 
-export { textHome, services, imgPartnerUrl, cardStudioContent, cardWorksAll, cardWorks2d, cardWorks3d, cardWorksGambar, images, textStudio, imageUrlCarouselHome, imageUrlCarouselStudio};
+    const imageOwner = [{
+        name: "Gega Ramadhan",
+        imageUrl: gega
+    },
+    {
+        name: "Elton Reynoval Aziz",
+        imageUrl: elton
+    }];
+
+export { textHome, services, imgPartnerUrl, cardStudioContent, cardWorksAll, cardWorks2d, cardWorks3d, cardWorksGambar, images, textStudio, imageUrlCarouselHome, imageUrlCarouselStudio, imageOwner};

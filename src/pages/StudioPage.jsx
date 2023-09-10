@@ -3,10 +3,12 @@ import CardStudio from "../components/CardStudio";
 import Carousel from "../components/Carousel";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import ImageOwner from "../components/ImageOwner";
 import { motion } from "framer-motion";
-
-import { textStudio, cardStudioContent, imageUrlCarouselStudio } from "../constants";
 import { useEffect } from "react";
+
+
+import { textStudio, cardStudioContent, imageUrlCarouselStudio, imageOwner } from "../constants";
 
 const cardVariants = {
   offscreen: {
@@ -37,14 +39,9 @@ const StudioPage = () => {
         ))}
       </div>
       <motion.div className="flex flex-col lg:flex-row justify-center items-center gap-10 py-10 px-5 lg:px-20 my-20" variants={cardVariants} initial="offscreen" whileInView="onscreen">
-        <div className="flex flex-col shadow-xl h-80 w-80 lg:h-96 lg:w-96">
-          <img src="src/assets/photo/Gega.jpg" alt="Gega Ramadhan" className="object-cover h-[85%]" />
-          <p className="text-center text-base font-semibold text-black p-3">Gega Ramadhan</p>
-        </div>
-        <div className="flex flex-col shadow-xl h-80 w-80 lg:h-96 lg:w-96">
-          <img src="src/assets/photo/Elton.jpg" alt="Elton Reynoval Aziz" className="object-cover h-[85%]" />
-          <p className="text-center text-base font-semibold text-black p-3">Elton Reynoval Aziz</p>
-        </div>
+        {imageOwner.map((owner, index) => (
+          <ImageOwner key={index} name={owner.name} imageUrl={owner.imageUrl}/>
+        ))}
       </motion.div>
       <Footer />
     </>

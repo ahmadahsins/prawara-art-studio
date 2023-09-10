@@ -22,7 +22,7 @@ const Footer = () => {
         <ul className="flex flex-col gap-3 font-normal">
           <li><Link to='/'>Home</Link></li>
           <li><Link to='/studio'>Studio</Link></li>
-          <li><Link to='/works/all'>Works</Link></li>
+          <li><Link to='/works/2d'>Works</Link></li>
           <li><Link to='/contact'>Contact</Link></li>
         </ul>
         <div className="flex gap-10 font-extralight">
