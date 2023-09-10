@@ -1,7 +1,10 @@
-import { useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import AlertContact from './AlertContact';
 
 const ContactForm = () => {
+    const [isSubmit, setIsSubmit] = useState(false);
+
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -13,10 +16,16 @@ const ContactForm = () => {
         }, (error) => {
             console.log(error.text);
         });
+
+        setIsSubmit(true);
     };
 
+    useEffect(() => {
+        setIsSubmit(false);
+    }, []);
+
     return (
-        <form ref={form} onSubmit={sendEmail} className="w-full flex flex-col gap-3 bg-slate-100 shadow-lg p-10 mt-28">
+        <form ref={form} onSubmit={sendEmail} className="w-full flex flex-col items-center gap-3 bg-slate-100 shadow-lg py-10 pr-10 pl-5 mt-28 mb-14 mx-5">
             <div className="form-control w-full">
                 <label className="label">
                     <span className="font-semibold text-black">Name</span>
@@ -41,7 +50,8 @@ const ContactForm = () => {
                 </label>
                 <textarea name="message" className="textarea textarea-bordered textarea-ghost"></textarea>
             </div>
-            <button type="submit" value="Send" className="btn">Submit</button>
+            <button type="submit" value="Send" className="btn w-full">Submit</button>
+            {isSubmit && <AlertContact />}
         </form>
     )
 }
