@@ -33,7 +33,7 @@ const About = ({ title, text, imageUrl, list }) => {
         )}
       </motion.div>
       <motion.div className="w-full lg:w-1/2 flex justify-center" variants={cardVariants} initial="offscreen" whileInView="onscreen" viewport={{ once: true }}>
-        <img src={imageUrl} alt="logo-prawara" className="rounded-md" />
+        <img src={imageUrl} alt="logo-prawara" className="rounded-md shadow-xl" />
       </motion.div>
     </div>
   )

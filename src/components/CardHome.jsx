@@ -36,7 +36,7 @@ const textVariants = {
 
 const CardHome = ({ title, text, imageUrl, link }) => {
   return (
-    <motion.div className="hero max-w-2xl h-80 scale-90 lg:scale-100" style={{backgroundImage: `url('${imageUrl}')`}}variants={cardVariants} initial="offscreen" whileInView="onscreen">
+    <motion.div className="hero max-w-2xl lg:max-w-4xl h-96 scale-90 lg:scale-100 shadow-xl" style={{backgroundImage: `url('${imageUrl}')`}}variants={cardVariants} initial="offscreen" whileInView="onscreen">
         <div className="hero-overlay bg-opacity-20"></div>
         <div className="hero-content text-center text-white">
         <motion.div className="max-w-md" variants={textVariants} initial="offscreen" whileInView="onscreen" transition={{ duration: 0.5 }}>

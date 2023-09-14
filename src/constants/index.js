@@ -28,7 +28,7 @@ import { donatcup, miniworld, table, burger, chicken, cow, dioramahelp, gedhang,
             title: "Recent Work",
             text: "Our Works",
             imageUrl: kamar,
-            link: "/works/all"
+            link: "/works/2d"
         },
         {
             title: "About Us",

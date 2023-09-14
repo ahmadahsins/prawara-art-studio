@@ -50,7 +50,7 @@ const ContactForm = () => {
                 </label>
                 <textarea name="message" className="textarea textarea-bordered textarea-ghost"></textarea>
             </div>
-            <button type="submit" value="Send" className="btn w-full">Submit</button>
+            <button type="submit" value="Send" className="btn w-full bg-black text-white">Submit</button>
             {isSubmit && <AlertContact />}
         </form>
     )

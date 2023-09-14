@@ -40,17 +40,17 @@ const Footer = () => {
       <hr  className='bg-white'/>
       <div className="flex flex-col items-center gap-5 w-full pt-8">
         <motion.div className="flex justify-center gap-5 text-2xl lg:text-3xl" variants={containerVariants} initial="offscreen" whileInView="onscreen" viewport={{ once: true }}>
-          <div className='rounded-full text-gray-400 border-2 border-gray-400 p-2 hover:bg-gradient-to-bl hover:from-fuchsia-700 hover:via-pink-500 hover:to-yellow-400 hover:text-white hover:border-white transition duration-300'>
+          <div className='rounded-full text-gray-200 border-2 border-gray-200 p-2 hover:bg-gradient-to-bl hover:from-fuchsia-700 hover:via-pink-500 hover:to-yellow-400 hover:text-white hover:border-white transition duration-300'>
             <a href="https://instagram.com/prawara.art?igshid=MmU2YjMzNjRlOQ==" target='_blank' rel="noreferrer"><FaInstagram /></a>
           </div>
-          <div className='rounded-full text-gray-400 border-2 border-gray-400 p-2 hover:bg-gradient-to-bl hover:from-green-700 hover:bg-green-400 hover:text-white hover:border-white transition duration-300'>
+          <div className='rounded-full text-gray-200 border-2 border-gray-200 p-2 hover:bg-gradient-to-bl hover:from-green-700 hover:bg-green-400 hover:text-white hover:border-white transition duration-300'>
             <a href="http://wa.me/6282134864845" target='_blank' rel="noreferrer"><FaWhatsapp /></a>
           </div>
-          <div className='rounded-full text-gray-400 border-2 border-gray-400 p-2 hover:bg-gradient-to-bl hover:from-red-700 hover:to-red-500 hover:text-white hover:border-white transition duration-300'>
+          <div className='rounded-full text-gray-200 border-2 border-gray-200 p-2 hover:bg-gradient-to-bl hover:from-red-700 hover:to-red-500 hover:text-white hover:border-white transition duration-300'>
             <a href="mailto:prawara.art@gmail.com" target='_blank' rel="noreferrer"><FaEnvelope /></a>
           </div>
         </motion.div>
-        <p className='text-gray-400'>© 2023 Prawara Art Studio. All rights reserved</p>
+        <p className='text-gray-200'>© 2023 Prawara Art Studio. All rights reserved</p>
       </div>
     </footer>
   )
