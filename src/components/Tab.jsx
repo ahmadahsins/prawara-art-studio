@@ -5,7 +5,7 @@ const Tab = () => {
   const [active, setActive] = useState('2d');
 
   return (
-    <div className="tabs tabs-boxed shadow-lg">
+    <div className="tabs tabs-boxed bg-black shadow-lg">
         <Link to="2d" className={`tab ${active === '2d' ? 'text-black bg-white' : 'text-white'}`} onClick={() => {setActive('2d');}}>2D</Link> 
         <Link to="3d" className={`tab ${active === '3d' ? 'text-black bg-white' : 'text-white'}`} onClick={() => {setActive('3d');}}>3D</Link>
         <Link to="gambar" className={`tab ${active === 'gambar' ? 'text-black bg-white' : 'text-white'}`} onClick={() => {setActive('gambar');}}>Gambar</Link> 
