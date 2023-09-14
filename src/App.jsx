@@ -6,8 +6,9 @@ import ContactPage from "./pages/ContactPage";
 import Navbar from "./components/Navbar";
 import CardWorks from "./components/CardWorks";
 import ToTop from "./components/ToTop"
+import BoardGame from "./components/BoardGame";
 
-import { cardWorks2d, cardWorks3d, cardWorksGambar } from "./constants";
+import { cardWorks2d, cardWorks3d, cardWorksGambar, textBoardGame } from "./constants";
 import { useState } from "react";
 
 const App = () => {
@@ -34,6 +35,7 @@ const App = () => {
             <Route path="2d" element={<CardWorks cardWorks={cardWorks2d} />} />
             <Route path="3d" element={<CardWorks cardWorks={cardWorks3d} />} />
             <Route path="gambar" element={<CardWorks cardWorks={cardWorksGambar}  />} />
+            <Route path="board-game" element={<BoardGame title={textBoardGame.title} text={textBoardGame.text} imageUrl={textBoardGame.imageUrl} />} />
           </Route>
           <Route path="/contact" element={<ContactPage />} />
         </Routes>

@@ -1,4 +1,4 @@
-import { donatcup, miniworld, table, burger, chicken, cow, dioramahelp, gedhang, gedung, home, karakter3, karakter4, karakter5, karakter7, pesawat, room, ruko3, ruko, rumahseni, taxi, theembosser, workbench, kamar, logo, cocard1, cocard2, cocard3, brosur, ganci,lanyard1, labyard2, nota, sertifikat, sticker, totebag1, totebag2, twibon1, twibon2, twibon3, twibon4, zoomBg, logo1, logo2, logo3, logo4, mcCard1, mcCard2, saba, media, logoWhite, gambarSatu, gambarDua, gambarTiga, gambarEmpat, gambarLima, gambarEnam, gambarTujuh, gambarDelapan, gambarSembilan, gambarSepuluh, gambarSebelas, gambarDuaBelas, gambarTigaBelas, gega, elton } from "../assets";
+import { donatcup, miniworld, table, burger, chicken, cow, dioramahelp, gedhang, gedung, home, karakter3, karakter4, karakter5, karakter7, pesawat, room, ruko3, ruko, rumahseni, taxi, theembosser, workbench, kamar, logo, cocard1, cocard2, cocard3, brosur, ganci,lanyard1, labyard2, nota, sertifikat, sticker, totebag1, totebag2, twibon1, twibon2, twibon3, twibon4, zoomBg, logo1, logo2, logo3, logo4, mcCard1, mcCard2, saba, media, logoWhite, gambarSatu, gambarDua, gambarTiga, gambarEmpat, gambarLima, gambarEnam, gambarTujuh, gambarDelapan, gambarSembilan, gambarSepuluh, gambarSebelas, gambarDuaBelas, gambarTigaBelas, gega, elton, boardGame1, boardGame2, boardGame3, packaging1, packaging2 } from "../assets";
 
     const textHome =
     { 
@@ -14,6 +14,14 @@ import { donatcup, miniworld, table, burger, chicken, cow, dioramahelp, gedhang,
         list: ["1. Meningkatkan kompetensi di bidang desain dan management perusahaan", "2. Meningkatkan strategi pemasaran agar jasa kami semakin diminati masyarakat", "3. Meningkatkan networking dan menjalin  kerjasama dengan berbagai pihak seperti komunitas desainer", "4. Memberikan hasil pelayanan terbaik berupa karya yang berkualitas, inovatif, dan menarik/", "5. Menyediakan ide-ide desain kreatif yang terus berkembang mengikuti tren dengan diiringi diferensiasi karya", "6. Memberikan customer experience dengan cara memberikan pelayanan yang menyenangkan, pengerjaan yang cepat, memuaskan, dan memberikan layanan konsultasi desain kepada customer"],
         imageUrl: logo,
     }
+
+    const textBoardGame = {
+        title: "Prawara Board Game",
+        text: `Prawara Board Game merupakan permainan papan yang dimainkan oleh dua orang dengan mengangkat keberadaan Hewan Endemik di Indonesia. Keberadaan dari Hewan Endemik sudah sangat jarang ditemukan di lingkungan sekitar dan bahkan hampir punah. Terdapat banyak Hewan Endemik di Indonesia, namun yang kami angkat dalam permainan ini adalah Harimau Sumatera, Badak Sumatera, Burung Cenderawasih, Orangutan, dan Komodo. \n Permainan ini mengangkat konsep perlindungan terhadap Hewan Endemik dan hutan sebagai habitatnya dari ganasnya penebangan pohon secara liar dari oleh manusia. Dengan munculnya permainan ini, diharapkan dapat mengedukasi masyarakat khususnya anak kecil dengan rentan usia 3 tahun ke atas agar turut menjaga kelestarian dari Hewan Endemik di Indonesia.`,
+        imageUrl: [  packaging1, packaging2 ]
+    }
+
+    const imgBoardGame = [ boardGame1, boardGame3, boardGame2 ];
 
     const services = [
         {
@@ -335,4 +343,4 @@ import { donatcup, miniworld, table, burger, chicken, cow, dioramahelp, gedhang,
         imageUrl: elton
     }];
 
-export { textHome, services, imgPartnerUrl, cardStudioContent, cardWorksAll, cardWorks2d, cardWorks3d, cardWorksGambar, images, textStudio, imageUrlCarouselHome, imageUrlCarouselStudio, imageOwner};
+export { textHome, services, imgPartnerUrl, cardStudioContent, cardWorksAll, cardWorks2d, cardWorks3d, cardWorksGambar, images, textStudio, imageUrlCarouselHome, imageUrlCarouselStudio, imageOwner, textBoardGame, imgBoardGame };

@@ -18,7 +18,7 @@ const containerVariants = {
 const Footer = () => {
   return (
     <footer className="flex flex-col py-10 bg-zinc-900 text-white">
-      <div className="flex flex-col lg:flex-row justify-evenly gap-10 px-5 py-10">
+      <div className="flex flex-col md:flex-row justify-evenly gap-10 px-5 py-10">
         <ul className="flex flex-col gap-3 font-normal">
           <li><Link to='/'>Home</Link></li>
           <li><Link to='/studio'>Studio</Link></li>

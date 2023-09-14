@@ -25,7 +25,7 @@ const ContactForm = () => {
     }, []);
 
     return (
-        <form ref={form} onSubmit={sendEmail} className="w-full flex flex-col items-center gap-3 bg-slate-100 shadow-lg py-10 pr-10 pl-5 mt-28 mb-14 mx-5">
+        <form ref={form} onSubmit={sendEmail} className="w-full flex flex-col items-center gap-3 bg-slate-100 shadow-lg py-10 pr-10 pl-5 mt-36 mb-14 mx-5">
             <div className="form-control w-full">
                 <label className="label">
                     <span className="font-semibold text-black">Name</span>
