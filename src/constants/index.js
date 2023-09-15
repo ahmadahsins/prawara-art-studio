@@ -1,9 +1,10 @@
-import { donatcup, miniworld, table, burger, chicken, cow, dioramahelp, gedhang, gedung, home, karakter3, karakter4, karakter5, karakter7, pesawat, room, ruko3, ruko, rumahseni, taxi, theembosser, workbench, kamar, logo, cocard1, cocard2, cocard3, brosur, ganci,lanyard1, labyard2, nota, sertifikat, sticker, totebag1, totebag2, twibon1, twibon2, twibon3, twibon4, zoomBg, logo1, logo2, logo3, logo4, mcCard1, mcCard2, saba, media, logoWhite, gambarSatu, gambarDua, gambarTiga, gambarEmpat, gambarLima, gambarEnam, gambarTujuh, gambarDelapan, gambarSembilan, gambarSepuluh, gambarSebelas, gambarDuaBelas, gambarTigaBelas, gega, elton, boardGame1, boardGame2, boardGame3, packaging1, packaging2 } from "../assets";
+import { donatcup, miniworld, table, burger, chicken, cow, dioramahelp, gedhang, gedung, home, karakter3, karakter4, karakter5, karakter7, pesawat, room, ruko3, ruko, rumahseni, taxi, theembosser, workbench, kamar, logo, cocard1, cocard2, cocard3, brosur, ganci,lanyard1, labyard2, nota, sertifikat, sticker, totebag1, totebag2, twibon1, twibon2, twibon3, twibon4, zoomBg, logo1, logo2, logo3, logo4, mcCard1, mcCard2, saba, media, logoWhite, gambarSatu, gambarDua, gambarTiga, gambarEmpat, gambarLima, gambarEnam, gambarTujuh, gambarDelapan, gambarSembilan, gambarSepuluh, gambarSebelas, gambarDuaBelas, gambarTigaBelas, gega, elton, gegaElton, boardGame1, boardGame2, boardGame3, packaging1, packaging2 } from "../assets";
 
     const textHome =
     { 
         title: "About",
-        text: "Prawara Art Studio merupakan perusahaan berbentuk Art Studio yang bergerak dalam bidang design grafis. Perusahaan kami mengunggulkan hasil karya berupa design grafis 3D dengan  Artstyle Low Poly unik dan menarik. Perkembangan jasa desain grafis yang pesat saat ini tidak lepas dari banyaknya permintaan  masyarakat akan jasa desain maupun produk desain. Prawara hadir sebagai solusi untuk memenuhi permintaan masyarakat akan jasa maupun produk desain tersebut. Kami hadir dengan memberikan jasa desain khususnya 3D dari desainer dengan skill desain yang mumpuni dan memiliki keunggulan dibanding yang lain. Daya kreativitas, intuisi, imajinasi desainer yang kami miliki menghasilkan maha karya yang luar biasa. Terbukti dari tingkat kepuasan customer terhadap jasa kami selama ini. Kami memiliki berbagai keunggulan dan keunikan dibanding dengan perusahaan-perusahaan desain lainnya.",
+        text: "Prawara Art Studio merupakan perusahaan berbentuk Art Studio yang bergerak dalam bidang design grafis. Perusahaan kami mengunggulkan hasil karya berupa design grafis 3D dengan  Artstyle Low Poly unik dan menarik. Perkembangan jasa desain grafis yang pesat saat ini tidak lepas dari banyaknya permintaan  masyarakat akan jasa desain maupun produk desain.",
+        text2: "Prawara hadir sebagai solusi untuk memenuhi permintaan masyarakat akan jasa maupun produk desain tersebut. Kami hadir dengan memberikan jasa desain khususnya 3D dari desainer dengan skill desain yang mumpuni dan memiliki keunggulan dibanding yang lain. Daya kreativitas, intuisi, imajinasi desainer yang kami miliki menghasilkan maha karya yang luar biasa. Terbukti dari tingkat kepuasan customer terhadap jasa kami selama ini. Kami memiliki berbagai keunggulan dan keunikan dibanding dengan perusahaan-perusahaan desain lainnya.",
         imageUrl: logo,
     }
     
@@ -17,7 +18,8 @@ import { donatcup, miniworld, table, burger, chicken, cow, dioramahelp, gedhang,
 
     const textBoardGame = {
         title: "Prawara Board Game",
-        text: `Prawara Board Game merupakan permainan papan yang dimainkan oleh dua orang dengan mengangkat keberadaan Hewan Endemik di Indonesia. Keberadaan dari Hewan Endemik sudah sangat jarang ditemukan di lingkungan sekitar dan bahkan hampir punah. Terdapat banyak Hewan Endemik di Indonesia, namun yang kami angkat dalam permainan ini adalah Harimau Sumatera, Badak Sumatera, Burung Cenderawasih, Orangutan, dan Komodo. \n Permainan ini mengangkat konsep perlindungan terhadap Hewan Endemik dan hutan sebagai habitatnya dari ganasnya penebangan pohon secara liar dari oleh manusia. Dengan munculnya permainan ini, diharapkan dapat mengedukasi masyarakat khususnya anak kecil dengan rentan usia 3 tahun ke atas agar turut menjaga kelestarian dari Hewan Endemik di Indonesia.`,
+        text: "Prawara Board Game merupakan permainan papan yang dimainkan oleh dua orang dengan mengangkat keberadaan Hewan Endemik di Indonesia. Keberadaan dari Hewan Endemik sudah sangat jarang ditemukan di lingkungan sekitar dan bahkan hampir punah. Terdapat banyak Hewan Endemik di Indonesia, namun yang kami angkat dalam permainan ini adalah Harimau Sumatera, Badak Sumatera, Burung Cenderawasih, Orangutan, dan Komodo.",
+        text2: "Permainan ini mengangkat konsep perlindungan terhadap Hewan Endemik dan hutan sebagai habitatnya dari ganasnya penebangan pohon secara liar dari oleh manusia. Dengan munculnya permainan ini, diharapkan dapat mengedukasi masyarakat khususnya anak kecil dengan rentan usia 3 tahun ke atas agar turut menjaga kelestarian dari Hewan Endemik di Indonesia.",
         imageUrl: [  packaging1, packaging2 ]
     }
 
@@ -27,13 +29,13 @@ import { donatcup, miniworld, table, burger, chicken, cow, dioramahelp, gedhang,
         {
             title: "Recent Work",
             text: "Our Works",
-            imageUrl: kamar,
+            imageUrl: packaging1,
             link: "/works/2d"
         },
         {
             title: "About Us",
             text: "Our Studio",
-            imageUrl: room,
+            imageUrl: gegaElton,
             link: "/studio"
         },
     ];

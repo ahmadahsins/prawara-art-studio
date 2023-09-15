@@ -16,7 +16,7 @@ const HomePage = () => {
     <>
       <Carousel imageUrl={imageUrlCarouselHome}/>
 
-      <About title={textHome.title} text={textHome.text} imageUrl={textHome.imageUrl} />
+      <About title={textHome.title} text={textHome.text} text2={textHome.text2} imageUrl={textHome.imageUrl} />
       <div className="flex flex-col lg:flex-row items-center justify-center gap-10 px-5 pt-16 pb-32">
         {services.map((service, index) => (
           <CardHome title={service.title} text={service.text} imageUrl={service.imageUrl} link={service.link} key={index} />

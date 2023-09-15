@@ -64,6 +64,7 @@ import gambarDuaBelas from './Karya/Gambar/duabelas.png';
 import gambarTigaBelas from './Karya/Gambar/tigabelas.png';
 import gega from './photo/Gega.jpg';
 import elton from './photo/Elton.jpg';
+import gegaElton from './photo/gega elton.png'
 import boardGame1 from './photo/DSC06015.jpg';
 import boardGame2 from './photo/DSC06039.jpg';
 import boardGame3 from './photo/DSC06048.jpg';
@@ -72,4 +73,4 @@ import packaging2 from './photo/PackagingBackEDIT.png';
 
 
 
-export { miniworld, donatcup, table, burger, chicken, cow, dioramahelp, gedhang, gedung, home, karakter3, karakter4, karakter5, karakter7, pesawat, room, ruko3, ruko, rumahseni, taxi, theembosser, workbench, kamar, logoBlack, logoWhite, logo, cocard1, cocard2, cocard3,brosur, ganci,lanyard1, labyard2, nota, sertifikat, sticker, totebag1, totebag2, twibon1, twibon2, twibon3, twibon4, zoomBg, logo1, logo2, logo3, logo4, mcCard1, mcCard2, media, saba, gambarSatu, gambarDua, gambarTiga, gambarEmpat, gambarLima, gambarEnam, gambarTujuh, gambarDelapan, gambarSembilan, gambarSepuluh, gambarSebelas, gambarDuaBelas, gambarTigaBelas, gega, elton, boardGame1, boardGame2, boardGame3, packaging1, packaging2 };
+export { miniworld, donatcup, table, burger, chicken, cow, dioramahelp, gedhang, gedung, home, karakter3, karakter4, karakter5, karakter7, pesawat, room, ruko3, ruko, rumahseni, taxi, theembosser, workbench, kamar, logoBlack, logoWhite, logo, cocard1, cocard2, cocard3,brosur, ganci,lanyard1, labyard2, nota, sertifikat, sticker, totebag1, totebag2, twibon1, twibon2, twibon3, twibon4, zoomBg, logo1, logo2, logo3, logo4, mcCard1, mcCard2, media, saba, gambarSatu, gambarDua, gambarTiga, gambarEmpat, gambarLima, gambarEnam, gambarTujuh, gambarDelapan, gambarSembilan, gambarSepuluh, gambarSebelas, gambarDuaBelas, gambarTigaBelas, gega, elton, gegaElton, boardGame1, boardGame2, boardGame3, packaging1, packaging2 };

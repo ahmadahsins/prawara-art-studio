@@ -35,7 +35,7 @@ const App = () => {
             <Route path="2d" element={<CardWorks cardWorks={cardWorks2d} />} />
             <Route path="3d" element={<CardWorks cardWorks={cardWorks3d} />} />
             <Route path="gambar" element={<CardWorks cardWorks={cardWorksGambar}  />} />
-            <Route path="board-game" element={<BoardGame title={textBoardGame.title} text={textBoardGame.text} imageUrl={textBoardGame.imageUrl} />} />
+            <Route path="board-game" element={<BoardGame title={textBoardGame.title} text={textBoardGame.text} text2={textBoardGame.text2} imageUrl={textBoardGame.imageUrl} />} />
           </Route>
           <Route path="/contact" element={<ContactPage />} />
         </Routes>

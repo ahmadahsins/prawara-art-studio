@@ -25,30 +25,30 @@ const ContactForm = () => {
     }, []);
 
     return (
-        <form ref={form} onSubmit={sendEmail} className="w-full flex flex-col items-center gap-3 bg-slate-100 shadow-lg py-10 pr-10 pl-5 mt-36 mb-14 mx-5">
+        <form ref={form} onSubmit={sendEmail} className="w-full flex flex-col items-center gap-3 bg-slate-100 shadow-lg py-10 px-6 mt-36 mb-14 mx-5">
             <div className="form-control w-full">
                 <label className="label">
                     <span className="font-semibold text-black">Name</span>
                 </label>
-                <input type="text" name="user_name" className="input input-bordered input-ghost w-full" />
+                <input type="text" name="user_name" className="input input-bordered input-ghost bg-white" />
             </div>
             <div className="form-control w-full">
                 <label className="label">
                     <span className="font-semibold text-black">Phone</span>
                 </label>
-                <input type="text" name="user_phone" className="input input-bordered input-ghost w-full" />
+                <input type="text" name="user_phone" className="input input-bordered input-ghost bg-white" />
             </div>
             <div className="form-control w-full">
                 <label className="label">
                     <span className="font-semibold text-black">Email</span>
                 </label>
-                <input type="email" name="user_email" className="input input-bordered input-ghost w-full" />
+                <input type="email" name="user_email" className="input input-bordered input-ghost bg-white" />
             </div>
-            <div className="form-control w-full">
+            <div className="form-control w-full mb-5">
                 <label className="label">
                     <span className="font-semibold text-black">Message</span>
                 </label>
-                <textarea name="message" className="textarea textarea-bordered textarea-ghost"></textarea>
+                <textarea name="message" className="textarea textarea-bordered textarea-ghost bg-white"></textarea>
             </div>
             <button type="submit" value="Send" className="btn w-full bg-black text-white">Submit</button>
             {isSubmit && <AlertContact />}
